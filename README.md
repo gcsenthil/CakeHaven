@@ -14,6 +14,8 @@ The project is designed to build and watch for changes in CSS files using Tailwi
 - `tailwind.config.js`: Tailwind CSS configuration file.
 - `package.json`: Defines the project's dependencies, dev dependencies, and scripts.
 
+Sample 
+https://nice-river-042ce861e.4.azurestaticapps.net/
 
 
 
