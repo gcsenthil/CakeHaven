@@ -30,14 +30,13 @@ document
       specialInstructions: document.getElementById("specialInstructions").value,
       orderStatus: "Pending", // Default value
     };
-    const code = "Qt7ktyOgD9v_eZul-xfPE8XlhW87EmkwcCQ1KRrJj5cHAzFus0iGSA==";
 
-    https: console.log("Form Data:", JSON.stringify(formData));
+    console.log("Form Data:", JSON.stringify(formData));
 
     try {
       // Send POST request using Fetch API
       const response = await fetch(
-        "https://cakehaven.azurewebsites.net/api/PostOrder?code=" + code,
+        "https://cakehaven.azurewebsites.net/api/PostOrder?code=Qt7ktyOgD9v_eZul-xfPE8XlhW87EmkwcCQ1KRrJj5cHAzFus0iGSA==",
         {
           method: "POST",
           headers: {
